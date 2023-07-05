@@ -1,0 +1,21 @@
+{
+  "name": "organizafatura",
+  "version": "1.0.0",
+  "description": "Meu projeto em para organizar compras no cartão",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "\"cartões\"",
+    "\"excel\"",
+    "\"javascript\"",
+    "\"node.js\"",
+    "\"planilha\""
+  ],
+  "author": "Aldeander Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
