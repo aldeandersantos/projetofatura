@@ -9,6 +9,11 @@ router.get('/', function(req,res){
     res.sendFile(path.join(__dirname+'/index.html'));
 
 })
+router.get('/fatura', function(req,res){
+
+    res.sendFile(path.join(__dirname+'/fatura.html'));
+
+})
 router.get('/sobre', function(req,res){
 
     res.sendFile(path.join(__dirname+'/sobre.html'));

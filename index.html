@@ -1,1 +1,63 @@
-<h2>Hello from Aldeander</h2>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Organização de Faturas de Cartão</title>
+  <style>
+    body {
+      background-color: navy;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .dropdown {
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      background-color: #333;
+      color: white;
+      font-size: 17px;
+      border: none;
+      outline: none;
+      padding: 14px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropbtn">Menu</button>
+    <div class="dropdown-content">
+      <a href="fatura">Fatura</a>
+      <a href="#">Opção 2</a>
+      <a href="sobre">Sobre</a>
+    </div>
+  </div>
+</body>
+</html>

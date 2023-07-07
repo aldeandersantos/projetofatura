@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>Organização de Faturas de Cartão</title>
@@ -47,19 +48,44 @@
     .dropdown:hover .dropdown-content {
       display: block;
     }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .centered-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+    
+    .purchase {
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: rgba(0, 0, 255, 0.5);
+      width: 300px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <div class="dropdown">
     <button class="dropbtn">Menu</button>
     <div class="dropdown-content">
-        <a href="/">Página Principal</a>
-        <a href="fatura">Fatura</a>
-        <a href="#">Opção 2</a>
+      <a href="/">Página Principal</a>
+      <a href="#">Opção 2</a>
+      <a href="sobre">Sobre</a>
     </div>
   </div>
-  <div>
-    <h2>Este é um projeto feito por Aldeander</h2>
+  
+  <h1>Organização de Faturas de Cartão</h1>
+  
+  <div class="centered-list">
+    <div class="purchase">Compra 1 - 04/05 parcelas</div>
+    <div class="purchase">Compra 2 - 02/03 parcelas</div>
+    <div class="purchase">Compra 3 - 01/02 parcelas</div>
+    <div class="purchase">Compra 4 - 03/04 parcelas</div>
   </div>
 </body>
 </html>
